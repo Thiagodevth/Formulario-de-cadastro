@@ -211,12 +211,22 @@ body {
         height: auto;
     }
 
+    .title h1 {
+        font-size: 24px;
+        margin-right: 3px;
+    }
+
+    .form-header {
+        margin-top: 10px;
+        margin-bottom: 0.2rem;
+    }
+
     .input-group {
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
-        max-height: 17rem;
-        padding-right: 1rem;
+        max-height: 15rem;
+        padding-right: 0.5rem;
     }
 
     .gender-inputs {
@@ -229,5 +239,15 @@ body {
 
     .gender-input {
         margin-top: 0.5rem;
+    }
+
+    .input-box {
+       
+        margin-bottom: 0.1rem;
+    }
+
+    .input-box input {
+        margin: 0.4rem 3px;
+        padding: 0.6rem;
     }
 }
