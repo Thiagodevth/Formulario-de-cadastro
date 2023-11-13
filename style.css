@@ -168,7 +168,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3.5rem auto 0.7rem;
+    margin: 1.5rem auto 0.7rem;
 }
 
 .container-button button:hover {
@@ -199,6 +199,7 @@ body {
     .form {
         width: 100%;
         border-radius: 10px;
+        height: 80vh;
     }
 }
 
